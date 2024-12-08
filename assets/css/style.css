@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  /* 1 rem = 16px */
+  font-size: 62.5%;
+  /* mẹo để quy đổi 1 rem = 10px */
+}
+
+/* khôi phục lại cơ chữ ban đầu */
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins";
+}
+
+/* -------------------------chung---------------------------- */
+a {
+  text-decoration: none;
+  /* bỏ gạch chân  */
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  display: inline-block;
+  min-width: 108px;
+  padding: 0 16px;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 14px;
+  background: #1ebfc1;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+/* tạo dấu 3 chấm trong trường hợp text quá dài */
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* dấu 3 chấm ở dòng thứ 2 */
+.line-clamp.line-2 {
+  --line-clamp: 2;
+}
+
+/* xuống dòng giữ cấu trúc trang */
+.break-all {
+  word-break: break-all;
+}
+
+/* -------------------------header---------------------------- */
+.header .body-header {
+  display: flex;
+  align-items: center;
+  padding: 52px 0 10px;
+}
+
+.header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 235px;
+}
+
+.header .nav ul {
+  display: flex;
+  gap: 39px;
+}
+
+.header .nav li a {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+}
+
+.nav li.active a,
+.nav a:hover {
+  color: #2f3a3b;
+  /* font-weight: 600; */
+  text-shadow: 1px 0 0 currentColor;
+}
+
+.header .btn-sign-up {
+  min-width: 108;
+  color: #1ebfc1;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+}
+
+.header .action {
+  display: flex;
+  margin-left: 177px;
+  gap: 24px;
+  align-items: center;
+}
+.header .action .btn-sign-in {
+  color: #494949;
+  font-family: Poppins;
+  font-size: 1.6rem;
+}
+.header .action .btn-sign-in:hover {
+  color: #2f3a3b;
+  /* font-weight: 600; */
+  text-shadow: 1px 0 0 currentColor;
+}
