@@ -1,0 +1,47 @@
+<svg width="162" height="162" viewBox="0 0 162 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="162" height="162" fill="#E5E5E5"/>
+<g id="eLearning Landing Page 8" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="4493" transform="translate(-321 -595)" fill="white"/>
+<g id="Hero-eLearning Landing Page 8">
+<g id="Header">
+<path id="Base" d="M-321 -595H1119V265H-321V-595Z" fill="white"/>
+<g id="Text elements">
+<g id="Play-=button">
+<g id="Ellipse 1864" filter="url(#filter0_d_0_1)">
+<circle cx="81" cy="59" r="31" fill="white"/>
+</g>
+<path id="Vector 90" d="M88 59L74 50V68L88 59Z" fill="#1EBFC1"/>
+</g>
+<g id="Button">
+<g id="Rectangle 3815" filter="url(#filter1_d_0_1)">
+<rect x="-186" y="25" width="186" height="68" rx="14" fill="#1EBFC1"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="0" y="0" width="162" height="162" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="22"/>
+<feGaussianBlur stdDeviation="25"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<filter id="filter1_d_0_1" x="-236" y="-15" width="286" height="168" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="10"/>
+<feGaussianBlur stdDeviation="25"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="4493" fill="white" transform="translate(-321 -595)"/>
+</clipPath>
+</defs>
+</svg>
